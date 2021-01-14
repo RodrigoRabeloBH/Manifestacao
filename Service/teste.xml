@@ -1,0 +1,22 @@
+"<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+    xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">
+    <soap:Header>
+        <WSCorIDSOAPHeader CorID=\"A2A10365C8C6EF13033F1B471C58D302,1:1,0,0,,,AgAAALNIQgAAAAFGAAAAAQAAABFqYXZhLnV0aWwuSGFzaE1hcAAAAAJIQgAAAAJGAAAAAgAAABBqYXZhLmxhbmcuU3RyaW5nAA9DYWxsZXJUaW1lc3RhbXBIQgAAAANFAAAAAgANMTYwOTA0NjIyOTg2MUhCAAAABEUAAAACAApUeG5UcmFjZUlkSEIAAAAFRQAAAAIAIUEyQTEwMzU1QzhDNkVGMTMwMzNGMUI0NzE3QkJFMzIzMA==\"
+            xmlns=\"http://www.ca.com/apm\" />
+    </soap:Header>
+    <soap:Body>
+        <nfeRecepcaoEventoNFResult xmlns=\"http://www.portalfiscal.inf.br/nfe/wsdl/NFeRecepcaoEvento4\">
+            <retEnvEvento versao=\"1.00\"
+                xmlns=\"http://www.portalfiscal.inf.br/nfe\">
+                <idLote>000000000000000</idLote>
+                <tpAmb>1</tpAmb>
+                <verAplic>AN_1.1.2</verAplic>
+                <cOrgao>91</cOrgao>
+                <cStat>215</cStat>
+                <xMotivo>Rejeicao: Falha no Esquema XML</xMotivo>
+            </retEnvEvento>
+        </nfeRecepcaoEventoNFResult>
+    </soap:Body>
+</soap:Envelope>"
